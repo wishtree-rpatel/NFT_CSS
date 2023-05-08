@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__top">
+        <figure class="card__figure">
+          <img
+            class="card__img"
+            src="images/image-equilibrium.jpg"
+            alt="crystel"
+            width="200"
+            height="200"
+          />
+          <figcaption class="offscreen">Equilibrium</figcaption>
+        </figure>
+        <div class="overlay">
+          <img class="card__img__hover" src="images/icon-view.svg" alt="view"/>
+        </div>
+      </div>
+
+      <h2 class="card__h2">Equllibrium #3429</h2>
+      <p class="card__description">
+        Our Equllibrium collection promotes balance and calm.
+      </p>
+      <div class="card__counts">
+        <div class="card__counts__left">
+          <img
+            class="card__counts__left__img"
+            src="images/icon-ethereum.svg"
+            width="10"
+            height="10"
+            alt="ethereum"
+          />
+          <span class="card__counts__left__span">0.041 ETH</span>
+        </div>
+        <div class="card__counts__right">
+          <img
+            class="card__counts__right__img"
+            src="images/icon-clock.svg"
+            width="10"
+            height="10"
+            alt="clock"
+            srcset=""
+          />
+          <span class="card__counts__right__span">3 days left</span>
+        </div>
+      </div>
+      <hr class="hr" />
+      <div class="card__creator">
+        <img
+          class="card__creator__img"
+          src="images/image-avatar.png"
+          alt="avatar"
+          width="20"
+          height="20"
+        />
+        <span class="card__creator__span"
+          ><span>Creation of </span>Jules Wyvern</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
